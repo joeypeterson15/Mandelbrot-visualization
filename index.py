@@ -10,8 +10,8 @@ zLimit = 2
 iterations = 1000
 
 def main():
-    cols = 800
-    rows = 800
+    cols = 400
+    rows = 400
     # centerX = rows / 2
     # centerY = cols / 2
     window = GraphWin("Mandlebrot", rows, cols, autoflush=False)

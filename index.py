@@ -24,7 +24,7 @@ def main():
         for y in range(cols):
             c = complex((x - xShift) * 0.01, (yShift - y) * 0.01)
             if isInMandlebrotSet(c):
-                window.plotPixel(x, y, "blue")
+                window.plotPixel(x, y, "pink")
 
 
     isInMandlebrotSet(c)
